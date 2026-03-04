@@ -1,3 +1,6 @@
-.data
-.__pychache__
-
+__pycache__/
+.vscode/
+data/
+.DS_Store
+*.pkl
+*.zip
