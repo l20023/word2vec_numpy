@@ -40,3 +40,8 @@ Hyperparameters and data settings are defined at the top of the script and can b
     python word2vec.py
     ```
 4.  **Output**: The script prints the average loss per epoch. Processed vocabulary and tokens are cached as `.pkl` files in the `data/` directory.
+
+---
+
+## Use of AI
+AI was used to debug and to write the README file. Also it helped me use logaddexp and using np.add.at such that I do not overwrite other gradient updates.
