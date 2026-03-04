@@ -120,7 +120,7 @@ def train_word2vec_test8():
     np.random.seed(SEED)
     random.seed(SEED)
     # download dataset and store
-    data = import_text8(download=False, percentage=0.005)
+    data = import_text8(download=True, percentage=0.005)
     tokens_idx = data["tokens_as_idx"]
     w2i = data["word2idx"]
     i2w = data["idx2word"]
